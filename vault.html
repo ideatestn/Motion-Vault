@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bank Mosi | IDEATEST SMAN 62 Jakarta</title>
+<meta name="description" content="IDEATEST (Indonesia Debate of Sixty Two): hub digital dan arsip perdebatan ekskul debat SMAN 62 Jakarta.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css"></head>
+<body><div id="nav-root"></div>
+<main class="max-w-6xl mx-auto px-4 pt-28 md:pt-32 pb-16">
+<header class="mb-10 reveal"><span class="tag">THE MOTION VAULT / IDT-VLT</span><h1 class="disp page-t">Bank Mosi</h1><p class="t-sub max-w-2xl mt-3">Cari mosi berdasarkan kata kunci atau kategori, lalu buka Bedah Mosi untuk membaca status quo, stance, dan titik clash.</p></header>
+<div class="flex flex-col md:flex-row gap-4 md:items-center mb-5 reveal">
+ <label class="sr-only" for="q">Cari mosi</label>
+ <input id="q" type="search" placeholder="Cari mosi, contoh: pajak, sekolah, AI" class="search flex-1">
+ <span id="counter" class="count">Mosi: 0/0</span>
+</div>
+<div id="chips" class="flex flex-wrap gap-2 mb-8 reveal" role="group" aria-label="Filter kategori"></div>
+<div id="vault-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+</main><div id="footer-root"></div><script src="main.js"></script></body></html>
